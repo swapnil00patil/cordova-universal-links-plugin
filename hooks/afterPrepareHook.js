@@ -79,8 +79,8 @@ function activateUniversalLinksInIos(cordovaContext, pluginPreferences) {
   // iosProjectPreferences.enableAssociativeDomainsCapability(cordovaContext);
 
   // generate entitlements file
-  iosProjectEntitlements.generateAssociatedDomainsEntitlements(cordovaContext, pluginPreferences);
+  // iosProjectEntitlements.generateAssociatedDomainsEntitlements(cordovaContext, pluginPreferences);
 
   // generate apple-site-association-file
-  iosAppSiteAssociationFile.generate(cordovaContext, pluginPreferences);
+  // iosAppSiteAssociationFile.generate(cordovaContext, pluginPreferences);
 }
